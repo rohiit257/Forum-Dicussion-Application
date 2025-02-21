@@ -53,7 +53,7 @@ const Page = () => {
   if (error) return <p className="text-red-500 text-center mt-4">{error}</p>;
   
   return (
-    <div className="bg-zinc-950 min-h-screen text-white flex flex-col items-center p-6">
+    <div className="bg-zinc-950 min-h-screen text-white flex flex-col items-center p-6 font-mono">
       <h1 className="text-3xl font-bold mb-6">World Chat</h1>
       
       <div className="w-full max-w-5xl bg-zinc-900 p-4 rounded-lg shadow-md flex flex-col flex-grow h-[600px]">
