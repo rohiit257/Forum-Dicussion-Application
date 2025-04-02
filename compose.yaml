@@ -3,7 +3,7 @@ version : '3.9'
 services:
   frontend:
     container_name: frontend
-    image: frontend
+    image: rohitdebugbugs/frontend:latest
     build:
       context: ./frontend
       dockerfile: frontend.dockerfile
@@ -16,7 +16,7 @@ services:
       - backend
   backend:
     container_name: backend
-    image: backend
+    image: rohitdebugbugs/backend:latest
     build:
       context: ./backend
       dockerfile: backend.dockerfile
